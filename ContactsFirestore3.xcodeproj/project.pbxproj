@@ -7,23 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA90707529D91B1900B5E7DF /* AddContactTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA90707429D91B1900B5E7DF /* AddContactTVController.swift */; };
 		FAEAC7C629D90A4900A34C00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAC7C529D90A4900A34C00 /* AppDelegate.swift */; };
 		FAEAC7C829D90A4900A34C00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAC7C729D90A4900A34C00 /* SceneDelegate.swift */; };
-		FAEAC7CA29D90A4900A34C00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAC7C929D90A4900A34C00 /* ViewController.swift */; };
-		FAEAC7CD29D90A4900A34C00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEAC7CB29D90A4900A34C00 /* Main.storyboard */; };
 		FAEAC7CF29D90A4A00A34C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEAC7CE29D90A4A00A34C00 /* Assets.xcassets */; };
 		FAEAC7D229D90A4A00A34C00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEAC7D029D90A4A00A34C00 /* LaunchScreen.storyboard */; };
+		FAEAC7DA29D90C0700A34C00 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAEAC7D929D90C0600A34C00 /* GoogleService-Info.plist */; };
+		FAEAC7DD29D90E0C00A34C00 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FAEAC7DC29D90E0C00A34C00 /* FirebaseFirestore */; };
+		FAEAC7E529D90E6D00A34C00 /* ContactsTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAC7DE29D90E6A00A34C00 /* ContactsTVController.swift */; };
+		FAEAC7E629D90E6D00A34C00 /* ContactTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAC7DF29D90E6B00A34C00 /* ContactTVCell.swift */; };
+		FAEAC7E729D90E6D00A34C00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEAC7E029D90E6B00A34C00 /* Main.storyboard */; };
+		FAEAC7E829D90E6D00A34C00 /* ContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAC7E129D90E6C00A34C00 /* ContactRepository.swift */; };
+		FAEAC7E929D90E6D00A34C00 /* EditContactTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAC7E229D90E6C00A34C00 /* EditContactTVController.swift */; };
+		FAEAC7EA29D90E6D00A34C00 /* ViewContactTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAC7E329D90E6C00A34C00 /* ViewContactTVController.swift */; };
+		FAEAC7EB29D90E6D00A34C00 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAC7E429D90E6D00A34C00 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA90707429D91B1900B5E7DF /* AddContactTVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactTVController.swift; sourceTree = "<group>"; };
 		FAEAC7C229D90A4900A34C00 /* ContactsFirestore3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsFirestore3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEAC7C529D90A4900A34C00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAEAC7C729D90A4900A34C00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAEAC7C929D90A4900A34C00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAEAC7CC29D90A4900A34C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAEAC7CE29D90A4A00A34C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAEAC7D129D90A4A00A34C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAEAC7D329D90A4A00A34C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEAC7D929D90C0600A34C00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAEAC7DE29D90E6A00A34C00 /* ContactsTVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTVController.swift; sourceTree = "<group>"; };
+		FAEAC7DF29D90E6B00A34C00 /* ContactTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTVCell.swift; sourceTree = "<group>"; };
+		FAEAC7E029D90E6B00A34C00 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FAEAC7E129D90E6C00A34C00 /* ContactRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactRepository.swift; sourceTree = "<group>"; };
+		FAEAC7E229D90E6C00A34C00 /* EditContactTVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditContactTVController.swift; sourceTree = "<group>"; };
+		FAEAC7E329D90E6C00A34C00 /* ViewContactTVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewContactTVController.swift; sourceTree = "<group>"; };
+		FAEAC7E429D90E6D00A34C00 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEAC7DD29D90E0C00A34C00 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,10 +72,17 @@
 		FAEAC7C429D90A4900A34C00 /* ContactsFirestore3 */ = {
 			isa = PBXGroup;
 			children = (
+				FAEAC7D929D90C0600A34C00 /* GoogleService-Info.plist */,
 				FAEAC7C529D90A4900A34C00 /* AppDelegate.swift */,
 				FAEAC7C729D90A4900A34C00 /* SceneDelegate.swift */,
-				FAEAC7C929D90A4900A34C00 /* ViewController.swift */,
-				FAEAC7CB29D90A4900A34C00 /* Main.storyboard */,
+				FAEAC7E429D90E6D00A34C00 /* Contact.swift */,
+				FAEAC7E129D90E6C00A34C00 /* ContactRepository.swift */,
+				FAEAC7DE29D90E6A00A34C00 /* ContactsTVController.swift */,
+				FAEAC7DF29D90E6B00A34C00 /* ContactTVCell.swift */,
+				FAEAC7E229D90E6C00A34C00 /* EditContactTVController.swift */,
+				FAEAC7E029D90E6B00A34C00 /* Main.storyboard */,
+				FA90707429D91B1900B5E7DF /* AddContactTVController.swift */,
+				FAEAC7E329D90E6C00A34C00 /* ViewContactTVController.swift */,
 				FAEAC7CE29D90A4A00A34C00 /* Assets.xcassets */,
 				FAEAC7D029D90A4A00A34C00 /* LaunchScreen.storyboard */,
 				FAEAC7D329D90A4A00A34C00 /* Info.plist */,
@@ -83,6 +106,9 @@
 			dependencies = (
 			);
 			name = ContactsFirestore3;
+			packageProductDependencies = (
+				FAEAC7DC29D90E0C00A34C00 /* FirebaseFirestore */,
+			);
 			productName = ContactsFirestore3;
 			productReference = FAEAC7C229D90A4900A34C00 /* ContactsFirestore3.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +137,9 @@
 				Base,
 			);
 			mainGroup = FAEAC7B929D90A4900A34C00;
+			packageReferences = (
+				FAEAC7DB29D90E0C00A34C00 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = FAEAC7C329D90A4900A34C00 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAEAC7D229D90A4A00A34C00 /* LaunchScreen.storyboard in Resources */,
+				FAEAC7DA29D90C0700A34C00 /* GoogleService-Info.plist in Resources */,
 				FAEAC7CF29D90A4A00A34C00 /* Assets.xcassets in Resources */,
-				FAEAC7CD29D90A4900A34C00 /* Main.storyboard in Resources */,
+				FAEAC7E729D90E6D00A34C00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +168,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAEAC7CA29D90A4900A34C00 /* ViewController.swift in Sources */,
+				FAEAC7E629D90E6D00A34C00 /* ContactTVCell.swift in Sources */,
+				FA90707529D91B1900B5E7DF /* AddContactTVController.swift in Sources */,
 				FAEAC7C629D90A4900A34C00 /* AppDelegate.swift in Sources */,
+				FAEAC7E529D90E6D00A34C00 /* ContactsTVController.swift in Sources */,
 				FAEAC7C829D90A4900A34C00 /* SceneDelegate.swift in Sources */,
+				FAEAC7EB29D90E6D00A34C00 /* Contact.swift in Sources */,
+				FAEAC7EA29D90E6D00A34C00 /* ViewContactTVController.swift in Sources */,
+				FAEAC7E929D90E6D00A34C00 /* EditContactTVController.swift in Sources */,
+				FAEAC7E829D90E6D00A34C00 /* ContactRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FAEAC7CB29D90A4900A34C00 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAEAC7CC29D90A4900A34C00 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FAEAC7D029D90A4A00A34C00 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -356,6 +384,26 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAEAC7DB29D90E0C00A34C00 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 10.0.0;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAEAC7DC29D90E0C00A34C00 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAEAC7DB29D90E0C00A34C00 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FAEAC7BA29D90A4900A34C00 /* Project object */;
 }
