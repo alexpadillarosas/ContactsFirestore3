@@ -12,10 +12,10 @@ class EditContactTVController: UITableViewController {
     var contact : Contact!
     
     @IBOutlet weak var contactImageView: UIImageView!
-    @IBOutlet weak var firstnameLabel: UITextField!
-    @IBOutlet weak var phoneLabel: UITextField!
-    @IBOutlet weak var emailLabel: UITextField!
-    @IBOutlet weak var positionLabel: UITextField!
+    @IBOutlet weak var firstnameTextField: UITextField!
+    @IBOutlet weak var phoneTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var positionTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,10 +32,10 @@ class EditContactTVController: UITableViewController {
             }
         }
         
-        firstnameLabel.text = "\(contact.name)"
-        positionLabel.text = "\(contact.position)"
-        emailLabel.text = "\(contact.email)"
-        phoneLabel.text = "\(contact.phone)"
+        firstnameTextField.text = "\(contact.name)"
+        positionTextField.text = "\(contact.position)"
+        emailTextField.text = "\(contact.email)"
+        phoneTextField.text = "\(contact.phone)"
     }
 /*
     // MARK: - Table view data source
@@ -104,10 +104,10 @@ class EditContactTVController: UITableViewController {
         // Pass the selected object to the new view controller.
         if let contactsTVController = segue.destination as? ContactsTVController {
             //Set the altered data in our local contact object
-            contact.name = firstnameLabel.text!
-            contact.phone = phoneLabel.text!
-            contact.email = emailLabel.text!
-            contact.position = positionLabel.text!
+            contact.name = firstnameTextField.text!
+            contact.phone = phoneTextField.text!
+            contact.email = emailTextField.text!
+            contact.position = positionTextField.text!
             //finally we set it to the ContactsTVController
             contactsTVController.selectedContact = contact
             

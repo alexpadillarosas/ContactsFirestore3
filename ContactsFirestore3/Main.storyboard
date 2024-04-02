@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qDV-tS-7Jx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qDV-tS-7Jx">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -584,10 +585,10 @@
                     </navigationItem>
                     <connections>
                         <outlet property="contactImageView" destination="UFi-TU-V5m" id="ibs-zi-QGa"/>
-                        <outlet property="emailLabel" destination="ajM-US-w26" id="Hzu-8d-aNg"/>
-                        <outlet property="firstnameLabel" destination="qfV-6V-5S2" id="hq0-AO-gPk"/>
-                        <outlet property="phoneLabel" destination="5F6-Tz-1yz" id="9Dh-Xd-Jbn"/>
-                        <outlet property="positionLabel" destination="fhz-Ba-wvv" id="2LV-eI-wNr"/>
+                        <outlet property="emailTextField" destination="ajM-US-w26" id="Hzu-8d-aNg"/>
+                        <outlet property="firstnameTextField" destination="qfV-6V-5S2" id="hq0-AO-gPk"/>
+                        <outlet property="phoneTextField" destination="5F6-Tz-1yz" id="9Dh-Xd-Jbn"/>
+                        <outlet property="positionTextField" destination="fhz-Ba-wvv" id="2LV-eI-wNr"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Byn-Zo-9kE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

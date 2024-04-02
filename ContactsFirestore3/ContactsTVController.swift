@@ -40,9 +40,7 @@ class ContactsTVController: UITableViewController {
                     print("Error fetching documents \(error!)")
                     return
                 }
-                
             }
-        
     }
 
     // MARK: - Table view data source
@@ -100,7 +98,7 @@ class ContactsTVController: UITableViewController {
                                       message: "Are you sure you want to permanently delete \(contact.name) ?",
                                       delete: {
                                                 if self.service.delete(contact: contact) {
-                                                    tableView.deleteRows(at: [indexPath], with: .fade)
+//                                                    tableView.deleteRows(at: [indexPath], with: .fade)
                                                     print("deleted")
                                                 }
                                             
@@ -149,12 +147,12 @@ class ContactsTVController: UITableViewController {
     @IBAction func unwindToContactsTVController(_ unwindSegue: UIStoryboardSegue) {
         let sourceViewController = unwindSegue.source
         // Use data from the view controller which initiated the unwind segue
-        if let editContactTVC = sourceViewController as? EditContactTVController {
+        if sourceViewController is EditContactTVController {
             if service.update(contact: self.selectedContact){
                 print("Contact Updated")
             }
         }
-        if let addContactTVC = sourceViewController as? AddContactTVController {
+        if sourceViewController is AddContactTVController {
             if service.add(contact: self.selectedContact){
                 print("Contact Added")
             }
@@ -174,6 +172,7 @@ class ContactsTVController: UITableViewController {
     /**
         Using closures:
               If we want to pass code that will get executed inside of a function as a parameter, then create a closure.
+                     Think of a closure as a function without name.
               The way to declare this parameters is:   parameter name : ( () -> Void )?
                      The question mark ? is optional, if we add it, it means the parameter might contain a value or not, wihout ? it could not be nil.
      */
